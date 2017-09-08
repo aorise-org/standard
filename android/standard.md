@@ -39,7 +39,7 @@
 
 包名全部小写，连续的单词只是简单地连接起来，不使用下划线，采用反域名命名规则，全部使用小写字母。一级包名是顶级域名，通常为`com`,`edu`,`gov`,`net`,`org`,`cn`等，二级包名为公司名，三级包名根据应用进行命名，后面就是对包名的划分了。  
 
-例如，奥昇平台项目的Config模块包名 `cn.aorise.platform.config`
+例如，奥昇平台项目的Config模块包名 `cn.aorise.platform.config`.
 
 关于包名的划分，其结构如下所示，很值得学习，参考Google I/O 2015的代码结构，按功能分包具体可以这样做：
 
@@ -168,10 +168,10 @@ static final String[] nonEmptyArray = {"these", "can", "change"};
 
 **scope：范围**
 
-- 非公有，非静态字段命名以m开头。
-- 静态字段命名以s开头。
-- 公有非静态字段命名以p开头。
-- 公有静态字段（全局变量）命名以g开头。
+- 非公有，非静态字段命名以m开头
+- 静态字段命名以s开头
+- 公有非静态字段命名以p开头
+- 公有静态字段（全局变量）命名以g开头
 
 例子：
 
@@ -239,8 +239,8 @@ public class MyClass {
 
 类型变量可用以下两种风格之一进行命名：  
 
-- 单个的大写字母，后面可以跟一个数字(如：`E`, `T`, `X`, `T2`)。
-- 以类命名方式，后面加个大写的`T`(如：`RequestT`, `FooBarT`)。
+- 单个的大写字母，后面可以跟一个数字(如：`E`, `T`, `X`, `T2`)
+- 以类命名方式，后面加个大写的`T`(如：`RequestT`, `FooBarT`)
 
 
 ## 资源文件规范
@@ -822,19 +822,19 @@ AS已帮你集成了一些注释模板，我们只需要直接使用即可，在
     
 ### 项目名字统计表
 
-|        项目名字CN        |  项目名字EN   |        项目包名         |
-| ------------------------ | ------------- | ----------------------- |
-| 智慧城市                 | platform      | cn.aorise.platform      |
-| 样例                     | sample        | cn.aorise.sample        |
-| 互联网+民生服务          | live          | cn.aorise.live          |
-| 综治网格化               | grid          | cn.aorise.grid          |
-| 数字化城市管理           | city          | cn.aorise.city          |
-| 阳光信访信息管理         | petition      | cn.aorise.petition      |
-| 阳光信访信息管理员工版本 | petitionStaff | cn.aorise.petitionStaff |
-| 教育                     | education     | cn.aorise.education     |
-| 医疗                     | hospital      | cn.aorise.hospital      |
-| 交通                     | traffic       | cn.aorise.traffic       |
-| 扶贫                     | aid           | cn.aorise.aid           |
+|   项目名字CN    |  项目名字EN   |        项目包名         |
+| --------------- | ------------- | ----------------------- |
+| 智慧城市        | platform      | cn.aorise.platform      |
+| 样例            | sample        | cn.aorise.sample        |
+| 互联网+民生服务 | live          | cn.aorise.live          |
+| 综治网格化      | grid          | cn.aorise.grid          |
+| 数字化城市管理  | city          | cn.aorise.city          |
+| 信访            | petition      | cn.aorise.petition      |
+| 信访员工版      | petitionStaff | cn.aorise.petitionStaff |
+| 教育            | education     | cn.aorise.education     |
+| 医疗            | hospital      | cn.aorise.hospital      |
+| 交通            | traffic       | cn.aorise.traffic       |
+| 扶贫            | aid           | cn.aorise.aid           |
 
 
 
