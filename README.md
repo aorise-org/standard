@@ -1,2 +1,4 @@
-# standard
-公司UI、测试、产品和开发规范
+# 开发规范
+
+- [UI规范](ui/standard.md)
+- [Android规范](android/standard.md)
