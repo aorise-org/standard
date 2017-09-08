@@ -21,8 +21,7 @@
 
 ## AS规范
 
-工欲善其事，必先利其器。
-
+工欲善其事，必先利其器。   
 - 尽量使用最新版的IDE进行开发(暂定Android Studio2.3.1)；
 - 编码格式统一为 **UTF-8**；
 - 编辑完`.java`、 `.xml`等文件后一定要**格式化**（基本格式方面使用 AS 默认模板即可）；
@@ -36,10 +35,10 @@
 
 ### 包名
 
-包名都以`域名反写+项目名称+模块名称`风格编写。
+包名都以`域名反写+项目名称+模块名称`风格编写。  
 
-包名全部小写，连续的单词只是简单地连接起来，不使用下划线，采用反域名命名规则，全部使用小写字母。一级包名是顶级域名，通常为`com`,`edu`,`gov`,`net`,`org`,`cn`等，二级包名为公司名，三级包名根据应用进行命名，后面就是对包名的划分了。 
- 
+包名全部小写，连续的单词只是简单地连接起来，不使用下划线，采用反域名命名规则，全部使用小写字母。一级包名是顶级域名，通常为`com`,`edu`,`gov`,`net`,`org`,`cn`等，二级包名为公司名，三级包名根据应用进行命名，后面就是对包名的划分了。  
+
 例如，奥昇平台项目的Config模块包名 `cn.aorise.platform.config`
 
 关于包名的划分，其结构如下所示，很值得学习，参考Google I/O 2015的代码结构，按功能分包具体可以这样做：
@@ -121,9 +120,7 @@ src
 
 ### 方法名
 
-方法名都以`lowerCamelCase`风格编写。
-
-方法名通常是动词或动词短语。
+方法名都以`lowerCamelCase`风格编写。方法名通常是动词或动词短语。
 
 | 方法                     | 说明                                   |
 | :--------------------- | ------------------------------------ |
@@ -195,7 +192,7 @@ public class MyClass {
 
 考虑到Android中使用很多UI控件，为避免控件和普通成员变量混淆以及更好达意，所有用来表示控件的成员变量统一加上控件缩写作为后缀（文末附有缩写表）。
 
-对于普通变量一般不添加类型后缀，如果统一添加类型后缀，请参考文末的缩写表[《UI控件缩写表》](#UI控件缩写表)。
+对于普通变量一般不添加类型后缀，如果统一添加类型后缀，请参考文末的缩写表[UI控件缩写表](#UI控件缩写表)。
 
 用统一的量词通过在结尾处放置一个量词，就可创建更加统一的变量，它们更容易理解，也更容易搜索。
 
@@ -221,20 +218,20 @@ public class MyClass {
 
 ### 参数名
 
-参数名以`lowerCamelCase`风格编写。    
-参数应该避免用单个字符命名。
+参数名以`lowerCamelCase`风格编写。参数应该避免用单个字符命名。
 
 
 ### 局部变量名
 
-局部变量名以`lowerCamelCase`风格编写。    
+局部变量名以`lowerCamelCase`风格编写。  
+  
 比起其它类型的名称，局部变量名可以有更为宽松的缩写。虽然缩写更宽松，但还是要避免用单字符进行命名，除了临时变量和循环变量。   
 即使局部变量是final和不可改变的，也不应该把它示为常量，自然也不能用常量的规则去命名它。
 
 
 ### 临时变量
 
-临时变量通常被取名为`i`、`j`、`k`、`m`和`n`，它们一般用于整型；`c`、`d`、`e`，它们一般用于字符型。    
+临时变量通常被取名为`i`、`j`、`k`、`m`和`n`，它们一般用于整型；`c`、`d`、`e`，它们一般用于字符型。      
 如：`for (int i = 0; i < len ; i++)`。
 
 
@@ -252,13 +249,17 @@ public class MyClass {
 
 全部小写，采用下划线命名法。
 
-#### contentView命名
+#### ContentView命名
 
 必须以全部单词小写，单词间以下划线分割，使用名词或名词词组。   
 
 所有Activity或Fragment的contentView必须与其类名对应，对应规则为：将所有字母都转为小写，将类型和功能调换（也就是后缀变前缀）。   
 
+规则：`activity_描述.xml`    
 例如：`activity_main.xml`
+
+规则：`fragment_描述.xml`    
+例如：`fragment_chat.xml`
 
 
 #### Dialog命名
@@ -273,6 +274,12 @@ public class MyClass {
 例如：`ppw_info.xml`
 
 
+#### 列表命名
+
+规则：`list_描述.xml`   
+例如：`list_city.xml`
+
+
 #### 列表项命名
 
 规则：`item_描述.xml`   
@@ -281,11 +288,10 @@ public class MyClass {
 
 #### 包含项命名
 
-规则：`模块_(位置)描述.xml`    
-例如：`activity_main_head.xml`、`activity_main_bottom.xml`  
+规则：`项目名称缩写_模块_(位置)描述.xml`    
+例如：`grid_activity_main_head.xml`、`grid_activity_main_bottom.xml`  
 
-注意：通用的包含项命名采用：`项目名称缩写_描述.xml`   
-例如：`xxxx_title.xml`
+具体项目名字见附录[项目名字统计表](#项目名字统计表)
 
 
 ### 资源文件（图片drawable文件夹下）
@@ -299,7 +305,7 @@ public class MyClass {
 - `用途_逻辑名称`
 - `用途_颜色`
 
-说明：用途也指控件类型（具体见附录[UI控件缩写表](#ui控件缩写表)）
+说明：用途也指控件类型，具体见附录[UI控件缩写表](#UI控件缩写表)
 
 例如：   
 
@@ -321,7 +327,7 @@ public class MyClass {
 | sel_search_ok           | 搜索界面确认选择器`用途_模块名_逻辑名称`  |
 | shape_music_ring        | 音乐界面环形形状`用途_模块名_逻辑名称`   |
 
-如果有多种形态，如按钮选择器：`sel_btn_xx_selector.xml`  
+如果有多种形态，如按钮选择器：`sel_btn_xxx.xml`  
 
 | 名称                   | 说明                           |
 | -------------------- | ---------------------------- |
@@ -343,8 +349,8 @@ public class MyClass {
 ### 动画文件（anim文件夹下）
 
 全部小写，采用下划线命名法，加前缀区分。  
-具体动画采用以下规则：`模块名_逻辑名称`。     
 
+具体动画采用以下规则：`模块名_逻辑名称`。     
 例如：`refresh_progress.xml`、`market_cart_add.xml`、`market_cart_remove.xml`。  
 
 普通的tween动画采用如下表格中的命名方式：`动画类型_方向`   
@@ -503,12 +509,15 @@ public class MyClass {
 
 你或许需要为按钮控件做同样的事情，不要停止在那里。将一组相关的和重复`android:****`的属性放到一个通用的`style`中。  
 
-**将一个大的`styles.xml`文件分割成多个文件**， 你可以有多个`styles.xml` 文件。Android SDK支持其它文件，`styles.xml`这个文件名称并没有作用，起作用的是在文件里的`<style>`标签。因此你可以有多个style文件，如`styles.xml`、`styles_home.xml`、`styles_item_details.xml`、`styles_forms.xml`。 不同于资源文件路径需要为系统构建起的有意义，在`res/values`目录下的文件可以任意命名。  
+**将一个大的`styles.xml`文件分割成多个文件**， 你可以有多个`styles.xml` 文件。    
+Android SDK支持其它文件，`styles.xml`这个文件名称并没有作用，起作用的是在文件里的`<style>`标签。因此你可以有多个style文件，如`styles.xml`、`styles_home.xml`、`styles_item_details.xml`、`styles_forms.xml`。   
+
+不同于资源文件路径需要为系统构建起的有意义，在`res/values`目录下的文件可以任意命名。  
 
 
 ### layout中的id命名
 
-命名模式为：`view缩写_模块名_逻辑名`，比如`btn_main_search`
+命名模式为：`view缩写_模块名_逻辑名`，比如`btn_main_search` `txt_header_title`
 使用`AndroidStudio`的插件`ButterKnife Zelezny`，生成注解非常方便，原生的话可以使用`Android Code Generator`插件。
 
 
@@ -577,7 +586,7 @@ public class WelcomeActivity {
 
 ### 方法注释
 
-每一个成员方法（包括自定义成员方法、覆盖方法、属性方法）的方法头都必须做方法头注释，在方法前一行输入`/** + 回车`或者设置`Fix doc comment`(Settings → Keymap → Fix doc comment)快捷键，AS便会帮你生成模板，我们只需要补全参数即可，如下所示。
+每一个成员方法（包括自定义成员方法、覆盖方法、属性方法）的方法头都必须做方法头注释，在方法前一行输入 `/** + 回车` 或者设置 `Fix doc comment` (Settings → Keymap → Fix doc comment)快捷键，AS便会帮你生成模板，我们只需要补全参数即可，如下所示。
 
 ```java
 /**
@@ -597,8 +606,8 @@ public static byte[] bitmap2Bytes(Bitmap bitmap, CompressFormat format) {
 
 ### 块注释
 
-块注释与其周围的代码在同一缩进级别。它们可以是`/* ... */`风格，也可以是`// ...`风格(**`//`后最好带一个空格**）。  
-  对于多行的`/* ... */`注释，后续行必须从`*`开始， 并且与前一行的`*`对齐。以下示例注释都是OK的。
+块注释与其周围的代码在同一缩进级别。它们可以是`/* ... */`风格，也可以是`// ...`风格(**`//`后最好带一个空格**）。    
+对于多行的`/* ... */`注释，后续行必须从`*`开始， 并且与前一行的`*`对齐。以下示例注释都是OK的。
 
 ```java
 /*
@@ -810,6 +819,27 @@ AS已帮你集成了一些注释模板，我们只需要直接使用即可，在
 
 程序中使用单词缩写原则：不要用缩写，除非该缩写是约定俗成的。
 
+    
+### 项目名字统计表
+
+|        项目名字CN        |  项目名字EN   |        项目包名         |
+| ------------------------ | ------------- | ----------------------- |
+| 智慧城市                 | platform      | cn.aorise.platform      |
+| 样例                     | sample        | cn.aorise.sample        |
+| 互联网+民生服务          | live          | cn.aorise.live          |
+| 综治网格化               | grid          | cn.aorise.grid          |
+| 数字化城市管理           | city          | cn.aorise.city          |
+| 阳光信访信息管理         | petition      | cn.aorise.petition      |
+| 阳光信访信息管理员工版本 | petitionStaff | cn.aorise.petitionStaff |
+| 教育                     | education     | cn.aorise.education     |
+| 医疗                     | hospital      | cn.aorise.hospital      |
+| 交通                     | traffic       | cn.aorise.traffic       |
+| 扶贫                     | aid           | cn.aorise.aid           |
+
+
+
+注：项目名字中`aorise` `common` `component`等均为保留字段，请后期添加项目的时候不要使用。另外添加项目名字请使用英文名字，并且考虑到资源文件均需要增加项目名字做前缀，请尽量控制英文名字短小。
+
 
 ## 参考
 [Android包命名规范][Android包命名规范]
@@ -827,7 +857,7 @@ AS已帮你集成了一些注释模板，我们只需要直接使用即可，在
 
 ## 版本日志
 
-- 17/09/08: 发布整理后的初版 ；
+- 17/09/08: 发布整理后的初稿；
 
 
 　　　　　　　　　　　　　　　——powered by jianye.tang
