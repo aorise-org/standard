@@ -1,10 +1,12 @@
-# 规范
+# 研发规范
+
+针对研发本身和研发流程中的工作流程进行了一个规范和约束，方便大家更加合理的安排工作和明确目的。
 
 ## 开发规范
 
 - [UI规范](ui/README.md)
 - [Android规范](android/README.md)
-- [service规范](service/README.md)
+- [Service规范](service/README.md)
 
 
 ## 流程规范
@@ -18,8 +20,8 @@
 | 移动端 | UI效果图、标注图、切图、色值表、接口文档、接口桩数据 | app(.apk/.ipa) 文件            | 唐建业             | NA   |
 
 
-- 每一个岗位需要有上一级的输入才可以正常工作，工作完成必须有工作输出
-- 输入输出尽量通过公司phabricator或者email
+- 每一个工作岗位均需要有上一级岗位的输入才可以正常工作，工作完成后必须有工作输出
+- 输入输出尽量通过公司提供的服务（phabricator或者email等）发出全员通知
 
 
 ## 输入输出样例
@@ -29,5 +31,6 @@
 - 接口文档
     - [接口规范一](service/接口规范.md)
     - [接口规范二](service/接口规范.html)
+    - [接口规范三](http://phabricator.aorise.org:8000/w/projects/smart-city/admin/api/)
 - [接口桩数据](https://easy-mock.com)
 
