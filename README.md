@@ -27,10 +27,9 @@
 ## 输入输出样例
 
 - 需求文档
-- [产品原型](service/assets/product-prototype/student/index.html)
+- [产品原型样例](https://aorise-org.github.io/standard/assets/product/student/)
 - 接口文档
-    - [接口规范一](service/接口规范.md)
-    - [接口规范二](service/接口规范.html)
-    - [接口规范三](http://phabricator.aorise.org:8000/w/projects/smart-city/admin/api/)
+    - [接口规范样例一](service/接口规范.md)
+    - [接口规范样例二](https://aorise-org.github.io/standard/assets/service/)
+    - [接口规范样例三](http://phabricator.aorise.org:8000/w/projects/smart-city/admin/api/)
 - [接口桩数据](https://easy-mock.com)
-
