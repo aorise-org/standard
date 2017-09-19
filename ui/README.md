@@ -4,7 +4,8 @@
 
 
 > - 参考 [Maerial Design](https://material.io/guidelines/) 设计规范
-> - 移动端标准都是基于android 1080P 分辨率（1080x1920）或者IOS 2倍屏   
+> - 移动端标准都是基于android 1080P 分辨率（1080x1920）或者 IOS 2倍屏   
+> - 单位的简单理解 sp = dp = pt
 
 
 ## 效果图
@@ -117,9 +118,9 @@ NA
 | ~~iPhone 3GS~~ | 320x480              | 163             | 1pt=1px       | 320x480  |
 | iPhone 5s      | 640x1164             | 332             | 1pt=2px       | 320x568  |
 | iPhone 6       | 750x1334             | 326             | 1pt=2px       | 375x667  |
-| iPhone 6 Plus  | 1242x2208(1080x1920) | 401             | 1dp=3px       | 414x737  |
+| iPhone 6 Plus  | 1242x2208(1080x1920) | 401             | 1pt=3px       | 414x737  |
 
-
+在IOS中，规定以163dpi（即屏幕分辨率为320x480）为基准：1pt=1px
 
 
 
