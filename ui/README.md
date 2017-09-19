@@ -10,16 +10,17 @@
 
 ## 效果图
 
-效果图统一标注，各个移动端平台用一个主流分辨率进行标注，减少工作量，也方便统一管理。
-- Android用 1080P 分辨率进行坐标、配色的标注
-- IOS用2倍屏（iPhone 6）进行坐标、配色的标注
+- 效果图统一，移动端平台用 **1080x1920分辨率** 做效果图
+
+## 标注图
+
+- 移动端平台统一用(iPhone 6) **375pt x 667pt** 进行坐标、配色的标注
 - 移动端坐标标注统一用 dp/pt 值
 
 
 ## 切图规范
 
-- Android只是一套切图，减少资源包大小
-- Android用 1080P 分辨率尺寸进行图片组件切图
+- Android只用 1080P 分辨率尺寸进行图片组件切图
 - IOS 2倍屏、3倍屏均切图
 
 ## 启动页
@@ -43,41 +44,43 @@
 
 | 字体CN | 字体EN | 字体大小 |
 |---|---|---|
-| 微型字体 | micro | 12sp |
-| 小号字体 | small | 14sp |
-| 常规字体 | normal | 16sp |
-| 中号字体 | middle | 18sp |
-| 大号字体 | big | 20sp |
-| 大大号字体 | large | 22sp |
+| 微型字体 | micro | 10sp |
+| 小号字体 | small | 12sp |
+| 常规字体 | normal | 14sp |
+| 中号字体 | middle | 15sp |
+| 大号字体 | big | 16sp |
+| 大大号字体 | large | 18sp |
 | 超大号字体| xlarge | 24sp |
 | 巨大字体 | huge | 36sp |
 
-- APP常规字体大小：常规字体
-- 标题字体大小：大号字体
+- APP常规字体大小：小号字体
+- 标题字体大小：大大号字体
 
 ## 边距
 
 边距包括内边距(padding)和外边距(margin)
 
-| 边距CN | 边距EN | 边距大小 |
-|---|---|---|
-| 迷你边距 | nano | 2dp |
-| 微型边距 | micro | 4dp |
-| 小号边距 | small | 8dp |
-| 常规边距 | normal | 16dp |
-| 中号边距 | middle | 24dp |
-| 大号边距 | big | 32dp |
-| 大大号边距 | large | 48dp |
-| 超大号边距 | xlarge | 64dp |
-| 巨大边距  | huge | 96dp |
+|   边距CN   | 边距EN | 边距大小 |
+| ---------- | ------ | -------- |
+| 迷你边距   | nano   | 2dp      |
+| 微型边距   | micro  | 4dp      |
+| 小号边距   | small  | 8dp      |
+| 常规边距   | normal | 10dp     |
+| 中等边距   | medium | 16dp     |
+| 中号边距   | middle | 24dp     |
+| 大号边距   | big    | 32dp     |
+| 大大号边距 | large  | 48dp     |
+| 超大号边距 | xlarge | 64dp     |
+| 巨大边距   | huge   | 96dp     |
 
 
-## 公共组件
 
+## 公共控件
 
-移动端android和ios都先考虑系统控件（可以针对系统控件进行色调或者图片替换）。系统控件的[《参考文章》](http://ionicframework.com/docs/components/#action-sheets)
 
 ### 系统控件
+
+移动端android和ios都先考虑系统控件（可以针对系统控件进行色调或者图片替换）。系统控件的[《参考文章》](http://ionicframework.com/docs/components/#action-sheets)
 
 - 按钮
 - 单选
