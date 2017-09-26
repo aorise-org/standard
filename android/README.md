@@ -634,9 +634,27 @@ AS已帮你集成了一些注释模板，我们只需要直接使用即可，在
 
 业务开发完成之后，开发人员做单元测试，单元测试完成之后，保证单元测试全部通过同时单元测试代码覆盖率达到一定程度（这个需要开发和测试约定，理论上越高越好），开发提测。
 
-- Lint
-- Findbugs
-- SonarQube
+### Lint
+
+- Correctness：不够完美的编码，比如硬编码、使用过时 API 等
+- Performance：对性能有影响的编码，比如：静态引用，循环引用等
+- Internationalization：国际化，直接使用汉字，没有使用资源引用等
+- Security：不安全的编码，比如在 WebView 中允许使用 JavaScriptInterface 等
+- Security：不安全的编码，比如在 WebView 中允许使用 JavaScriptInterface 等
+
+
+### Findbugs
+
+- Bad practice: 坏的实践
+- Malicious code vulnerability: 可能受到的恶意攻击
+- Correctness: 一般的正确性问题
+- Dodgy: 危险的，具有潜在危险的代码，可能运行期产生错误
+- Performance: 性能问题
+- Multithreaded correctness: 多线程的正确性多线程编程时，可能导致错误的代码
+- Internationalization: 国际化
+
+### SonarQube
+
 
 
 ## Ionic规范
