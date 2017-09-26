@@ -451,12 +451,12 @@ public class MyClass {
 
     <dimen name="aorise_dialog_width">250dp</dimen>
 
-    <dimen name="aorise_stroke_width_normal">1px</dimen>
-    <dimen name="aorise_stroke_width_middle">1dp</dimen>
+    <dimen name="aorise_stroke_size_normal">1px</dimen>
+    <dimen name="aorise_stroke_size_middle">1dp</dimen>
 
-    <dimen name="aorise_divider_height_micro">1px</dimen>
-    <dimen name="aorise_divider_height_normal">2px</dimen>
-    <dimen name="aorise_divider_height_middle">2dp</dimen>
+    <dimen name="aorise_divider_size_micro">1px</dimen>
+    <dimen name="aorise_divider_size_normal">2px</dimen>
+    <dimen name="aorise_divider_size_middle">2dp</dimen>
 
     <dimen name="aorise_cardview_corner_radius">8dp</dimen>
     <dimen name="aorise_cardview_elevation">4dp</dimen>
