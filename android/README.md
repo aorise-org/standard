@@ -424,45 +424,43 @@ public class MyClass {
 <resources>
 
     <!-- font sizes -->
-    <dimen name="aorise_font_size_micro">12sp</dimen>
-    <dimen name="aorise_font_size_small">14sp</dimen>
-    <dimen name="aorise_font_size_middle">16sp</dimen>
-    <dimen name="aorise_font_size_medium">18sp</dimen>
-    <dimen name="aorise_font_size_large">22sp</dimen>
+    <dimen name="aorise_font_size_micro">10sp</dimen>
+    <dimen name="aorise_font_size_small">12sp</dimen>
+    <dimen name="aorise_font_size_normal">14sp</dimen>
+    <dimen name="aorise_font_size_middle">15sp</dimen>
+    <dimen name="aorise_font_size_big">16sp</dimen>
+    <dimen name="aorise_font_size_large">18sp</dimen>
     <dimen name="aorise_font_size_xlarge">24sp</dimen>
     <dimen name="aorise_font_size_huge">36sp</dimen>
 
     <!-- typical spacing between two views -->
-    <dimen name="aorise_margin_huge">48dp</dimen>
-    <dimen name="aorise_margin_big">24dp</dimen>
-    <dimen name="aorise_margin_middle">16dp</dimen>
-    <dimen name="aorise_margin_normal">8dp</dimen>
-    <dimen name="aorise_margin_micro">4dp</dimen>
-    <dimen name="aorise_margin_nano">2dp</dimen>
+    <dimen name="aorise_size_1dp">1dp</dimen>
+    <dimen name="aorise_size_2dp">2dp</dimen>
+    <dimen name="aorise_size_3dp">3dp</dimen>
+    <dimen name="aorise_size_4dp">4dp</dimen>
+    <dimen name="aorise_size_5dp">5dp</dimen>
+    <dimen name="aorise_size_6dp">6dp</dimen>
+    <dimen name="aorise_size_7dp">7dp</dimen>
+    <dimen name="aorise_size_8dp">8dp</dimen>
+    <dimen name="aorise_size_9dp">9dp</dimen>
+    <dimen name="aorise_size_10dp">10dp</dimen>
+    <dimen name="aorise_size_100dp">100dp</dimen>
 
-    <dimen name="aorise_padding_huge">48dp</dimen>
-    <dimen name="aorise_padding_big">24dp</dimen>
-    <dimen name="aorise_padding_middle">16dp</dimen>
-    <dimen name="aorise_padding_normal">8dp</dimen>
-    <dimen name="aorise_padding_micro">4dp</dimen>
-    <dimen name="aorise_padding_nano">2dp</dimen>
+    <!-- view sizes -->
+    <dimen name="aorise_title_height">48dp</dimen>
 
-    <!-- typical sizes of views -->
-    <dimen name="aorise_width_huge">240dp</dimen>
-    <dimen name="aorise_width_xlarge">180dp</dimen>
-    <dimen name="aorise_width_large">120dp</dimen>
-    <dimen name="aorise_width_big">60dp</dimen>
-    <dimen name="aorise_width_middle">48dp</dimen>
-    <dimen name="aorise_width_normal">32dp</dimen>
-    <dimen name="aorise_width_small">16dp</dimen>
+    <dimen name="aorise_dialog_width">250dp</dimen>
 
-    <dimen name="aorise_height_huge">240dp</dimen>
-    <dimen name="aorise_height_xlarge">180dp</dimen>
-    <dimen name="aorise_height_large">120dp</dimen>
-    <dimen name="aorise_height_big">60dp</dimen>
-    <dimen name="aorise_height_middle">48dp</dimen>
-    <dimen name="aorise_height_normal">32dp</dimen>
-    <dimen name="aorise_height_small">16dp</dimen>
+    <dimen name="aorise_stroke_width_normal">1px</dimen>
+    <dimen name="aorise_stroke_width_middle">1dp</dimen>
+
+    <dimen name="aorise_divider_height_micro">1px</dimen>
+    <dimen name="aorise_divider_height_normal">2px</dimen>
+    <dimen name="aorise_divider_height_middle">2dp</dimen>
+
+    <dimen name="aorise_cardview_corner_radius">8dp</dimen>
+    <dimen name="aorise_cardview_elevation">4dp</dimen>
+    <dimen name="aorise_fab_margin">16dp</dimen>
 
 </resources>
 
