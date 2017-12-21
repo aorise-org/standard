@@ -28,3 +28,11 @@
 - JsonOnlineViewer：网络请求、接口调试插件。
 - [Folding-plugin](https://github.com/dmytrodanylyk/folding-plugin)：分类AS布局文件的神器。
 - Genymotion：模拟器插件（低性能电脑建议搭配AS使用）。
+
+## Android API支持
+
+Android API支持不低于 `API15：Android4.0.3` （目前最高 `API26：Android8.0`）
+
+## 分辨率支持
+
+支持`480x800` 及以上分辨率（包括`720p` `1080p` `2k` 但不限于）
