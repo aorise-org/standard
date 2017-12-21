@@ -5,10 +5,10 @@
 ## 开发规范
 
 - [UI规范](https://github.com/aorise-org/standard/blob/master/standard/UI规范.md)
-- [Android开发环境配置](https://github.com/aorise-org/standard/blob/master/standard/Android开发环境配置.md)
-- [Android代码规范](https://github.com/aorise-org/standard/blob/master/standard/Android代码规范.md)
 - [IOS开发环境配置](https://github.com/aorise-org/standard/blob/master/standard/IOS开发环境配置.md)
 - [IOS代码规范](https://github.com/aorise-org/standard/blob/master/standard/IOS代码规范.md)
+- [Android开发环境配置](https://github.com/aorise-org/standard/blob/master/standard/Android开发环境配置.md)
+- [Android代码规范](https://github.com/aorise-org/standard/blob/master/standard/Android代码规范.md)
 - [~~APIs规范~~](https://github.com/aorise-org/standard/blob/master/standard/APIs规范.md)
 
 ## 流程规范
